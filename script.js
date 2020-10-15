@@ -30,7 +30,7 @@
 // userName = Boolean(userName);
 // console.log(userName);
 
-let anyNum = prompt('Your number');
+let anyNum = prompt('Your Number');
 anyNum = +anyNum;
 
 if (isNaN(anyNum)) {
