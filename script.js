@@ -33,3 +33,5 @@ if (typeof (x) == 'string') {
 } else {
     console.log('тип x не определен')
 }
+
+console.log(typeof x);
