@@ -11,7 +11,7 @@ if (anyNum == '') {
 } else if (isNaN(anyNum)) {
     console.log('введено не число');
 } else if (anyNum == null) {
-    console.log ('отмена')
+    console.log ('отмена');
 } else if (+anyNum % 2 == 0) {
     console.log (anyNum + ' - четное число');
 } else if (+anyNum % 2 !== 0) {
@@ -25,11 +25,11 @@ let x;
 if (typeof (x) == 'string') {
     console.log('x - строка');
 } else if (isNaN(x)) {
-    console.log('тип х не определен')
+    console.log('тип х не определен');
 } else if (typeof (x) == 'number') {
-    console.log('x - число')
+    console.log('x - число');
 } else if (typeof (x) == 'boolean') {
-    console.log('x - логический тип')
+    console.log('x - логический тип');
 } else {
     console.log('тип x не определен')
 }
