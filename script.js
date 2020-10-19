@@ -1,42 +1,35 @@
 'use strict'
 
-// console.log('Hello, World!');
-// console.log(5 + 8);
+// Задание 10.3.1
 
-// let userName = 'petya';
-// console.log(userName);
+let anyNum = prompt('Введите целое число');
 
-// userName = 'Misha';
-// console.log(userName);
+console.log(typeof(anyNum));
 
-// let defaultName = 'Maks';
-// userName = defaultName ;
+if (anyNum == '') {
+    console.log('пустая строка');
+} else if (isNaN(anyNum)) {
+    console.log('введено не число');
+} else if (anyNum == null) {
+    console.log ('отмена')
+} else if (+anyNum % 2 == 0) {
+    console.log (anyNum + ' - четное число');
+} else if (+anyNum % 2 !== 0) {
+    console.log (anyNum + ' - не четное число');
+}
 
-// console.log(userName);
+// Задание 10.3.2
 
-// const block_size = 50 + 30;
-// console.log(block_size);
+let x;
 
-// console.log(typeof defaultName);
-
-// let myAdress = {
-//     town: 'Moscow',
-//     street: 'Beringov',
-//     house: 42
-// }
-// console.log(myAdress);
-// // alert(typeof (myAdress));
-
-// userName = Boolean(userName);
-// console.log(userName);
-
-let anyNum = prompt('Your Number');
-anyNum = +anyNum;
-
-if (isNaN(anyNum)) {
-    console.log('not a number');
-} else if (anyNum % 2 == 0) {
-    console.log (anyNum + ' - chetnoe')
-} else if (anyNum % 2 !== 0) {
-    console.log (anyNum + ' - ne chetnoe')
+if (typeof (x) == 'string') {
+    console.log('x - строка');
+} else if (isNaN(x)) {
+    console.log('тип х не определен')
+} else if (typeof (x) == 'number') {
+    console.log('x - число')
+} else if (typeof (x) == 'boolean') {
+    console.log('x - логический тип')
+} else {
+    console.log('тип x не определен')
 }
