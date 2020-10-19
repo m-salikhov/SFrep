@@ -31,5 +31,5 @@ if (typeof (x) == 'string') {
 } else if (typeof (x) == 'boolean') {
     console.log('x - логический тип');
 } else {
-    console.log('тип x не определен')
+    console.log('тип x не определен');
 }
